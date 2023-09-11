@@ -1,3 +1,69 @@
+html {
+  width: 100%;
+  height: 250%;
+}
 body {
-    background: blue;
+    background-image: url(https://i.etsystatic.com/43447612/r/il/99407e/4941090237/il_1588xN.4941090237_i4g8.jpg);
   }
+body > h1 {
+    padding: 5px;
+    border: 3px solid black;
+    display: block;
+    text-align: center;
+    margin-left: 0px;
+  }
+body > h2 {
+    text-align: center;
+  }
+body img {
+  width: 400px;
+}
+body > h3 {
+  text-align: center;
+}
+  /* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 190px;
+  left: 20px;
+  color:aliceblue;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 190px;
+  right: 20px;
+  color: black;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.photo1 {
+  float: left;
+}
+.photo2 {
+  float: right;
+}
+.photo3 {
+position: relative;
+}
